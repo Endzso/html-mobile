@@ -1,0 +1,275 @@
+body{
+    background-color: gray;
+}
+
+.phone {
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 450px;
+    height: 850px;
+    border-radius: 50px;
+}
+
+.screen{
+    background: linear-gradient(120deg,lightblue, #000000);
+    position: absolute;
+    top: 15px;
+    margin-left: 15px;
+    width: 420px;
+    height: 825px;
+    border-radius: 40px;
+}
+
+.toolbar {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top: 750px;
+    bottom: 0px;
+    height: 80px;
+    width: 420px;
+    border-radius: 40px;
+}
+
+.camerabar {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+    opacity: 0.7;
+}
+
+.cameracircle {
+    position: relative;
+    background: rgb(255, 255, 255, 0.7);
+    margin-top: 10px;
+    height: 10px;
+    width: 10px;
+    margin-left: 90px;
+    top: 12px;
+    border-radius: 50px;
+    opacity: 1;
+}  
+
+.speaker {
+    position: relative;
+    background: rgb(255, 255, 255, 0.7);
+    margin-top: 2px;
+    height: 10px;
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.status {
+    margin-left: 230px;
+}
+
+.unlock {
+    margin-left: 50px;
+}
+
+.applications {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.firstline div {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    height: 70px;
+    width: 70px;
+    margin: 11px 10px;
+}
+
+.secondline div {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    height: 70px;
+    width: 70px;
+    margin: 11px 10px;
+}
+
+.thirdline div {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    height: 70px;
+    width: 70px;
+    margin: 11px 10px;
+}
+
+.firstapp > i {
+    text-align: center;
+    position: relative;
+    padding-top: 28px;
+}
+
+.secondapp > i {
+    text-align: center;
+    position: relative;
+    padding-top: 28px;
+}
+
+.thirdapp > i {
+    text-align: center;
+    position: relative;
+    padding-top: 28px;
+}
+
+.app-bottom {
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 8px;
+    text-align: center;
+    height: 45px;
+    width: 400px;
+}
+
+.bottominline {
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.bottominline i {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.firstline > .ap-gps {
+    background: linear-gradient(180deg,#3c5798, #57983c);
+}
+
+.firstline > .ap-calculator {
+    background: linear-gradient(120deg,#444444, gray);
+}
+
+.firstline > .ap-bank {
+    background: linear-gradient(180deg,#580000, #be0000);
+}
+
+.firstline > .ap-twitter {
+    background: linear-gradient(123deg,#4db5f5,#074870);
+}
+
+.secondline > .ap-contacts {
+    background: linear-gradient(180deg,black, white);
+}
+
+.secondline > .ap-files {
+    background: linear-gradient(180deg,green, orange);
+}
+
+.secondline > .ap-message {
+    background: linear-gradient(90deg, purple, pink);
+}
+
+.secondline > .ap-racing {
+    background: linear-gradient(120deg, rgb(255, 198, 9), rgb(15, 199, 255));
+}
+
+.thirdline > .ap-taxi {
+    background: linear-gradient(90deg, yellow, darkorange);
+}
+
+.thirdline > .ap-gallery {
+    background: linear-gradient(120deg, rgb(0, 255, 132), rgb(63, 95, 255));
+}
+
+.thirdline > .ap-house {
+    background: linear-gradient(120deg, darkgrey, lightblue);
+}
+
+.thirdline > .ap-garage {
+    background: linear-gradient(120deg, darkgrey, lightblue);
+}
+
+
+#call {
+    color: green;
+}
+
+#camera {
+    color: darkgrey;
+}
+
+#signal {
+    color: white;
+}
+
+#unlock {
+    color: white;
+}
+
+#menu {
+    color: white;
+}
+
+#mail {
+    color: darkred;
+}
+
+#settings {
+    color: gray;
+}
+
+#gps {
+    color: white;
+}
+
+#calculator {
+    color: white;
+}
+
+#bank {
+    color: white;
+}
+
+#twitter {
+    color: white;
+}
+
+#file {
+    color: white;
+}
+
+#contacts {
+    color: white;
+}
+
+#message {
+    color: white;
+}
+
+#racing {
+    color: white;
+}
+
+#taxi {
+    color: white;
+}
+
+#gallery {
+    color: white;
+}
+
+#house {
+    color: white;
+}
+
+#garage {
+    color: white;
+}
